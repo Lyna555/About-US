@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+html{
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+}
+/*.hamburger-menu{
+	background-color: #b35a20;
+	margin-top: 0;
+}*/
+h1{
+	font-size: 4em;
+	position:relative;
+	margin-top: 0;
+	margin-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	/*display: flex;
+	justify-content: center;*/
+	text-align: center;
+
+}
+body{
+	background-color: #fcf5ef;
+	margin: 0em 0 0 0;
+	/*background-image: url(backg.jpg);*/
+	/*opacity: 0.5;*/
+
+}
+.about-website{
+
+	height: calc(100vh-8em);
+	padding: 4em;
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	background-color:#006373; 
+	border-radius: 0 0 0 180px;
+	
+
+	
+}
+
+.line{
+	
+	position: relative;
+
+	top: 50%;
+	width: auto;
+	margin: 0 auto;
+	border-right: 2px solid rgba(255,255,255,0.75);
+	font-size: 230%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;transform: translateY(-50%);
+	color: #fff;
+	
+
+
+}
+
+.anim-typewriter{
+	animation: typewriter 3.5s steps(44) 1s 1 normal both,
+	blinkTextCursor 800ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width:23em;
+	}
+}
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgba(255,255,255,0.75);
+
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
+.hamburger-menu{
+	padding: 1em;
+}
+.goal{
+	font-size: 150%;
+	/*padding: 4em 16em 4em 16em;*/
+	padding: 4em 20% 4em 20%;
+	margin-bottom: 16em;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 1em;
+	font-family: sans-serif;
+	color: rgba(0,0,0,0.7);
+	
+}
+
+@media screen and (max-width: 970px){
+
+.our-story.why-algeria{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.line{
+	font-size: 180%;
+}
+.image{
+	/*padding: 1em auto 1em auto;*/
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right:auto;
+	justify-content: center;
+
+
+}
+.text{
+	text-align: center;
+}
+#pic-text{
+	/*background-color:#bfd5c9; #eadac7;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+}
+@media screen and (max-width: 760px){
+.line{
+	font-size: 120%;
+}
+.welcome{
+	font-size: 300%;
+
+}
+}
+/*.our-story p{
+	margin: 8em 1em 0 1em;
+	font-size: 150%;
+	text-align: left;
+	font-family: sans-serif;
+	color: rgba(255,255,255,0.75);
+
+}*/
+#text{
+    margin: 3em 1em 5em 3em;
+	font-size: 160%;
+	text-align: left;
+	font-family: sans-serif;
+	color: rgba(0,0,0,0.7);	
+}
+.image{
+	position: relative;
+	margin:3em 1em 5em 3em;
+	/*padding: 3em 1em 2em 1em;*/
+	width: 50%;
+	height: auto;
+
+	
+	
+}
+.our-story{
+
+	}
+.why-tourism{
+   
+	}	
+.why-algeria{
+	
+	}
+#pic-text{
+	/*background-color:#bfd5c9; #eadac7;*/
+	display: flex;
+	justify-content: center;
+}
+.welcome{
+	/*color:  #fff opacity:0.75;*/
+	color: #fff;
+}
+footer{
+	background-color: #bfd5c9;
+}
+.footer-shaped{
+	background-color: #006373;
+	text-align: center;
+	padding:1em;
+	font-size: 250%;
+	color: #fff;
+	font-family: 'Ephesis', cursive;
+	border-radius: 180px 0 0 0;
+
+}
+
+.container{
+	background-color:#bfd5c9;/*#E7DCC8; #eadac7;*/
+	
+
+	/*border-radius: 180px 0 180px 0;*/
+}
+.h1{
+	
+  display: block;
+  font-size: 2em;
+  font-style: sans-serif;
+  margin-top: 0.67em;
+  margin-bottom: 0.20em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+
+}
